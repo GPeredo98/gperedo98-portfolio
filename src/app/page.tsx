@@ -1,6 +1,3 @@
-import { Terminal, Code2, Cpu } from 'lucide-react';
-import Navbar from './Navbar';
-
 export default function Home() {
   return (
     <section className="relative pt-32 pb-20 px-6 max-w-7xl mx-auto flex flex-col items-center text-center">

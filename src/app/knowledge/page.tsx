@@ -1,6 +1,6 @@
 import { 
   Layout, Server, Smartphone, Globe, 
-  Layers, Database, Cloud, Terminal 
+  Layers, Cloud 
 } from 'lucide-react';
 
 const Knowledge = () => {
@@ -84,7 +84,7 @@ const Knowledge = () => {
           </div>
           <div>
             <p className="text-white font-semibold">Strategic Management in Software Engineering</p>
-            <p className="text-zinc-500 text-sm">Master's Degree perspective on every project.</p>
+            <p className="text-zinc-500 text-sm">Masters Degree perspective on every project.</p>
           </div>
         </div>
         <div className="flex gap-4">

@@ -38,7 +38,7 @@ const Navbar = () => {
 					href="#contact"
 					className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-cyan-500 hover:text-white transition-all"
 				>
-					Let's Talk
+					Lets Talk
 				</Link>
 			</div>
 		</nav>

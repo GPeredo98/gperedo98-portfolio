@@ -1,5 +1,4 @@
 import { GraduationCap, Award, Heart, User, Trophy, Zap } from 'lucide-react';
-import Image from 'next/image';
 
 const AboutMe = () => {
   const courses = [
@@ -39,7 +38,7 @@ const AboutMe = () => {
           <h3 className="text-xl font-bold text-white mb-4">Education</h3>
           <div className="space-y-4">
             <div>
-              <p className="text-white font-semibold text-sm">Master's Degree</p>
+              <p className="text-white font-semibold text-sm">Masters Degree</p>
               <p className="text-zinc-400 text-xs">Strategic Mgmt. in Software Engineering</p>
             </div>
             <div className="h-px bg-zinc-800" />

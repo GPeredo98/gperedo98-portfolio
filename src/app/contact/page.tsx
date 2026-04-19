@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Send, ArrowUpRight } from 'lucide-react';
+import { Mail, MessageCircle, Send } from 'lucide-react';
 
 const Contact = () => {
   const socialLinks = [
@@ -32,7 +32,7 @@ const Contact = () => {
           
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Let's build <br />
+              Lets build <br />
               <span className="text-zinc-500">something great.</span>
             </h2>
             <p className="text-zinc-400 text-lg mb-8 max-w-md">
