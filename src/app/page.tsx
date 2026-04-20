@@ -32,11 +32,11 @@ export default function Home() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-20 pt-10 border-t border-zinc-800/50 w-full">
         <div>
-          <div className="text-3xl font-bold">+8 Years</div>
+          <div className="text-3xl font-bold">+6 Years</div>
           <div className="text-zinc-500 text-sm">Experience</div>
         </div>
         <div>
-          <div className="text-3xl font-bold">+50</div>
+          <div className="text-3xl font-bold">+11</div>
           <div className="text-zinc-500 text-sm">Projects Delivered</div>
         </div>
         <div className="hidden md:block">

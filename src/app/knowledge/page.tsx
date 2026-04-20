@@ -8,19 +8,19 @@ const Knowledge = () => {
     {
       category: "Frontend Architecture",
       icon: <Layout className="text-cyan-400" />,
-      skills: ["Angular 14-19", "TypeScript", "RxJS", "Next.js", "Tailwind CSS", "UI/UX Design"],
+      skills: ["Angular", "TypeScript", "RxJS", "Next.js", "Tailwind CSS", "UI/UX Design", "PrimeNG"],
       color: "from-cyan-500/20 to-blue-500/20"
     },
     {
       category: "Backend & Core",
       icon: <Server className="text-purple-400" />,
-      skills: ["NestJS", "Node.js", "Microservices", "RESTful APIs", "TypeORM", "Clean Architecture"],
+      skills: ["NestJS", "Node.js", "RESTful APIs", "TypeORM", "FastAPI", "Python", "PostgreSQL", "MySQL"],
       color: "from-purple-500/20 to-pink-500/20"
     },
     {
       category: "Mobile Solutions",
       icon: <Smartphone className="text-amber-400" />,
-      skills: ["Ionic Framework", "Capacitor", "Android/iOS Deploy", "Mobile UI Patterns"],
+      skills: ["React Native", "Ionic", "Capacitor", "Android/iOS Deploy", "Mobile UI Patterns"],
       color: "from-amber-500/20 to-orange-500/20"
     },
     {

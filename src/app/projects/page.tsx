@@ -9,31 +9,103 @@ const ProjectsSection = () => {
 			company: "Overscope Technologies",
 			description: "Sistema integral de gestión para condominios y seguridad.",
 			mainImage: "/projects/mencargo-main.jpg",
-			internalImages: ["/projects/mencargo-dash.jpg", "/projects/mencargo-app.jpg"],
-			tags: ["Angular", "NestJS", "Ionic"],
+			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
+			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
 			type: 'private',
-			links: { preview: "https://mencargo.com" }
-		},
-		{
-			title: "Mencargo",
-			company: "Overscope Technologies",
-			description: "Sistema integral de gestión para condominios y seguridad.",
-			mainImage: "/projects/mencargo-main.jpg",
-			internalImages: ["/projects/mencargo-dash.jpg", "/projects/mencargo-app.jpg"],
-			tags: ["Angular", "NestJS", "Ionic"],
-			type: 'private',
-			links: { preview: "https://mencargo.com" }
+			links: { preview: "https://mencargo.net" }
 		},
 		{
 			title: "AidGlobe",
 			description: "Plataforma global para la gestión de voluntariado y ayuda social.",
 			mainImage: "/projects/aidglobe-main.jpg",
-			internalImages: ["/projects/aidglobe-1.jpg", "/projects/aidglobe-2.jpg"],
-			tags: ["Next.js", "TypeScript", "Tailwind"],
+			internalImages: ["/projects/aidglobe-screenshot-1.png", "/projects/aidglobe-screenshot-2.png", "/projects/aidglobe-screenshot-3.png"],
+			tags: ["Next.js", "React", "TypeScript", "Tailwind", "NestJS", "PostgreSQL"],
 			type: 'personal',
 			links: {
 				preview: "https://aidglobe.org",
 				github: "https://github.com/GPeredo98/aidglobe-cloud"
+			}
+		},
+		{
+			title: "Yedy",
+			company: "Digital Harbor Inc.",
+			description: "Herramienta de gestión de proyectos.",
+			mainImage: "/projects/yedy-main.jpg",
+			internalImages: ["/projects/yedy-dash.jpg", "/projects/yedy-app.jpg"],
+			tags: ["Angular", "NgRX", "TypeScript", "Figma"],
+			type: 'private',
+			links: { preview: "https://digitalharborbolivia.com" }
+		},
+		{
+			title: "Social Text",
+			company: "Digital Harbor Inc.",
+			description: "Procesador de texto con IA para crear texto enriquecido.",
+			mainImage: "/projects/social-text-main.png",
+			internalImages: ["/projects/social-text-dash.jpg", "/projects/social-text-app.jpg"],
+			tags: ["TypeScript", "Figma"],
+			type: 'private',
+			links: { preview: "https://digitalharborbolivia.com" }
+		},
+		{
+			title: "Ventu",
+			company: "Overscope Technologies",
+			description: "Sistema integral de gestión para condominios y seguridad.",
+			mainImage: "/projects/ventu-main.png",
+			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
+			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			type: 'private',
+			links: { preview: "https://mencargo.net" }
+		},
+		{
+			title: "Dogfy",
+			company: "Overscope Technologies",
+			description: "Sistema integral de gestión para condominios y seguridad.",
+			mainImage: "/projects/dogfy-main.png",
+			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
+			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			type: 'private',
+			links: { preview: "https://mencargo.net" }
+		},
+		{
+			title: "TuPasaje.com",
+			company: "Clan Bolivia",
+			description: "Sistema integral de gestión para condominios y seguridad.",
+			mainImage: "/projects/tupasaje-main.png",
+			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
+			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			type: 'private',
+			links: { preview: "https://mencargo.net" }
+		},
+		{
+			title: "Gestor Digital",
+			company: "Banco Fassil",
+			description: "Sistema integral de gestión para condominios y seguridad.",
+			mainImage: "/projects/mencargo-main.jpg",
+			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
+			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			type: 'private',
+			links: { preview: "https://mencargo.net" }
+		},
+		{
+			title: "Pionus UI Kit",
+			company: "Banco Fassil",
+			description: "Sistema integral de gestión para condominios y seguridad.",
+			mainImage: "/projects/mencargo-main.jpg",
+			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
+			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			type: 'private',
+			links: { preview: "https://mencargo.net" }
+		},
+		{
+			title: "Lluvia de Colores",
+			description: "Plataforma de estimulación infantil y seguimiento de desarrollo para padres y profesionales.",
+			mainImage: "/projects/lluvia-de-colores-main.png",
+			internalImages: ["/projects/lluvia-de-colores-1.jpg", "/projects/lluvia-de-colores-2.jpg"],
+			tags: ["Next.js", "React", "TypeScript", "Tailwind", "NestJS", "PostgreSQL"],
+			type: 'personal',
+			links: {
+				preview: "https://lluvia-de-colores.net",
+				github: "https://github.com/GPeredo98/lluvia-de-colores"
 			}
 		},
 	];
@@ -55,20 +127,19 @@ const ProjectsSection = () => {
 				</div>
 			</div>
 
-			<div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+			<div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
 				{projects.map((project, index) => (
 					<div
 						key={index}
 						className="group relative bg-zinc-900/40 border border-zinc-800/50 rounded-3xl overflow-hidden hover:border-cyan-500/50 transition-all duration-500"
 					>
-						<div className="relative h-72 w-full overflow-hidden">
+						<div className="relative h-52 w-full overflow-hidden">
 							<Image
 								src={project.mainImage}
 								alt={project.title}
 								fill
-								className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60"
+								className="object-cover transition-transform duration-700 group-hover:scale-110"
 							/>
-							<div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent" />
 
 							<div className="absolute top-4 left-4">
 								{project.type === 'private' ? (
@@ -77,18 +148,18 @@ const ProjectsSection = () => {
 									</span>
 								) : (
 									<span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-500 text-[10px] font-bold uppercase tracking-wider">
-										<Eye size={12} /> Open Source
+										<Eye size={12} /> Personal
 									</span>
 								)}
 							</div>
 						</div>
 
-						<div className="p-8">
+						<div className="p-4">
 							<div className="flex justify-between items-start mb-4">
 								<div>
 									{project.company && (
 										<span className="text-cyan-500 text-xs font-mono mb-1 block">
-											@{project.company}
+											{project.company}
 										</span>
 									)}
 									<h3 className="text-2xl font-bold text-white">{project.title}</h3>
@@ -112,7 +183,7 @@ const ProjectsSection = () => {
 								{project.description}
 							</p>
 
-							<div className="flex flex-wrap gap-2 mb-8">
+							<div className="flex flex-wrap gap-2 mb-4">
 								{project.tags.map((tag: string) => (
 									<span key={tag} className="text-[11px] px-2.5 py-1 rounded-md bg-zinc-800 text-zinc-300 border border-zinc-700/50">
 										{tag}
@@ -120,10 +191,10 @@ const ProjectsSection = () => {
 								))}
 							</div>
 
-							<div className="flex gap-3 pt-6 border-t border-zinc-800/50">
+							<div className="flex gap-3 pt-4 border-t border-zinc-800/50">
 								<span className="text-[10px] text-zinc-500 uppercase font-bold self-center mr-2">Inside:</span>
 								{project.internalImages.map((img: string, i: number) => (
-									<div key={i} className="relative h-12 w-20 rounded-lg overflow-hidden border border-zinc-700 grayscale hover:grayscale-0 transition-all cursor-pointer">
+									<div key={i} className="relative h-12 w-20 rounded-lg overflow-hidden border border-zinc-700 transition-all cursor-pointer">
 										<Image src={img} alt="Internal screenshot" fill className="object-cover" />
 									</div>
 								))}

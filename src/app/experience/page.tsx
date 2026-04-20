@@ -5,7 +5,7 @@ const Experience = () => {
     {
       company: "Digital Harbor",
       role: "Full-Stack Software Developer",
-      period: "2023 - Present",
+      period: "May 2023 - Present (+3 years)",
       location: "Remote / International",
       description: "Desarrollo de soluciones escalables para Social Text y Yedy. Implementación de arquitecturas modernas y optimización de flujos de trabajo en equipos distribuidos.",
       tech: ["Angular", "NestJS", "TypeScript", "Microservices"]
@@ -13,31 +13,31 @@ const Experience = () => {
     {
       company: "Banco Fassil",
       role: "Senior UI/UX Developer",
-      period: "2021 - 2023",
+      period: "June 2021 - May 2023 (2 years)",
       location: "Santa Cruz, Bolivia",
       description: "Liderazgo en el desarrollo de 'Gestor Digital' y creación del 'Pionus UI Kit', estandarizando la interfaz de usuario para toda la banca digital.",
       tech: ["Angular", "RxJS", "Design Systems", "UI/UX"]
     },
     {
-      company: "Overscope Technologies",
+      company: "Clan Bolivia",
       role: "Full-Stack Developer",
-      period: "2019 - 2021",
-      location: "Santa Cruz, Bolivia",
+      period: "April 2021 - August 2021 (5 months)",
+      location: "Remote / Bolivia",
       description: "Desarrollador principal de 'Mencargo' y 'Dogfy'. Creación de aplicaciones móviles y plataformas administrativas de alta demanda.",
       tech: ["Ionic", "Node.js", "Firebase", "Angular"]
     },
     {
-      company: "Freelance / Own Projects",
-      role: "Software Architect",
-      period: "2018 - 2019",
+      company: "Mencargo",
+      role: "Software Developer, Tech Lead",
+      period: "January 2020 - June 2021 (1 year 6 months)",
       location: "Santa Cruz, Bolivia",
       description: "Desarrollo independiente de soluciones personalizadas y conceptualización de plataformas como AidGlobe.",
       tech: ["Next.js", "Docker", "PostgreSQL"]
     },
     {
-      company: "Junior Dev Intern",
-      role: "Frontend Developer",
-      period: "2017 - 2018",
+      company: "Freelance",
+      role: "Graphic Designer",
+      period: "2019 - Abril 2021 (2 years 4 months)",
       location: "Santa Cruz, Bolivia",
       description: "Primeros pasos profesionales enfocados en maquetación de alta fidelidad y lógica básica de aplicaciones web.",
       tech: ["HTML5", "CSS3", "JavaScript"]

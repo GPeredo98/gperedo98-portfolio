@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -16,9 +17,7 @@ const Navbar = () => {
 					href='/'
 					className="text-zinc-400 hover:text-white text-sm font-medium transition-colors"
 				>
-					<div className="text-white font-bold text-xl tracking-tighter">
-						GP<span className="text-cyan-500">.98</span>
-					</div>
+					<Image src="/main-logo.png" alt="Logo" width={62} height={32} />
 				</Link>
 
 				<ul className="hidden md:flex gap-8">
