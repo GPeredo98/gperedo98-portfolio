@@ -1,4 +1,5 @@
 import { GraduationCap, Award, Heart, User, Trophy, Zap } from 'lucide-react';
+import Image from 'next/image';
 
 const AboutMe = () => {
   const courses = [
@@ -12,8 +13,8 @@ const AboutMe = () => {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
         
         <div className="md:col-span-8 bg-zinc-900/40 border border-zinc-800 p-8 rounded-3xl relative overflow-hidden group">
-          <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:rotate-12 transition-transform">
-            <User size={120} />
+          <div className="absolute top-0 right-0 p-8 opacity-30 group-hover:rotate-8 transition-transform">
+            <Image src="/my-picture.png" alt="Profile Picture" width={200} height={200} className="rounded-full" />
           </div>
           
           <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
