@@ -6,20 +6,21 @@ const ProjectsSection = () => {
 	const projects: any[] = [
 		{
 			title: "Mencargo",
-			company: "Overscope Technologies",
+			company: "Overscope SRL",
 			description: "Sistema integral de gestión para condominios y seguridad.",
-			mainImage: "/projects/mencargo-main.jpg",
+			mainImage: "/projects/mencargo-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
-			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			tags: ["TypeScript", "Angular", "NestJS", "PostgreSQL", "Ionic", "PrimeNG", "Docker", "Figma"],
 			type: 'private',
 			links: { preview: "https://mencargo.net" }
 		},
 		{
 			title: "AidGlobe",
+			company: "Personal Project",
 			description: "Plataforma global para la gestión de voluntariado y ayuda social.",
 			mainImage: "/projects/aidglobe-main.jpg",
 			internalImages: ["/projects/aidglobe-screenshot-1.png", "/projects/aidglobe-screenshot-2.png", "/projects/aidglobe-screenshot-3.png"],
-			tags: ["Next.js", "React", "TypeScript", "Tailwind", "NestJS", "PostgreSQL"],
+			tags: ["Next.js", "React", "TypeScript", "Tailwind", "ShadcnUI", "NestJS", "PostgreSQL", "Figma"],
 			type: 'personal',
 			links: {
 				preview: "https://aidglobe.org",
@@ -29,10 +30,10 @@ const ProjectsSection = () => {
 		{
 			title: "Yedy",
 			company: "Digital Harbor Inc.",
-			description: "Herramienta de gestión de proyectos.",
-			mainImage: "/projects/yedy-main.jpg",
-			internalImages: ["/projects/yedy-dash.jpg", "/projects/yedy-app.jpg"],
-			tags: ["Angular", "NgRX", "TypeScript", "Figma"],
+			description: "Herramienta de gestión de proyectos orientada a un enfoque social de colaboración en cada interacción.",
+			mainImage: "/projects/yedy-main.png",
+			internalImages: ["/projects/yedy-screenshot-1.png", "/projects/yedy-screenshot-2.png", "/projects/yedy-screenshot-3.png"],
+			tags: ["Angular", "NgRX", "TypeScript", "SCSS", "Figma"],
 			type: 'private',
 			links: { preview: "https://digitalharborbolivia.com" }
 		},
@@ -48,56 +49,57 @@ const ProjectsSection = () => {
 		},
 		{
 			title: "Ventu",
-			company: "Overscope Technologies",
-			description: "Sistema integral de gestión para condominios y seguridad.",
+			company: "Overscope SRL",
+			description: "Sistema de gestión de ingresos e invitados para eventos y organizadores.",
 			mainImage: "/projects/ventu-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
-			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			tags: ["Angular", "PrimeNG", "Ionic", "MySQL", "Python", "FastAPI", "Figma"],
 			type: 'private',
-			links: { preview: "https://mencargo.net" }
+			links: { preview: "https://ventu.vip" }
 		},
 		{
 			title: "Dogfy",
-			company: "Overscope Technologies",
-			description: "Sistema integral de gestión para condominios y seguridad.",
+			company: "Overscope SRL",
+			description: "E-commerce para la venta de productos y servicios para mascotas.",
 			mainImage: "/projects/dogfy-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
-			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			tags: ["Angular", "PrimeNG", "Ionic", "MySQL", "Python", "FastAPI"],
 			type: 'private',
-			links: { preview: "https://mencargo.net" }
+			links: { preview: "https://dogfy.app" }
 		},
 		{
 			title: "TuPasaje.com",
 			company: "Clan Bolivia",
-			description: "Sistema integral de gestión para condominios y seguridad.",
+			description: "Plataforma web de venta de pasajes y servicios de viaje.",
 			mainImage: "/projects/tupasaje-main.png",
-			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
-			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			internalImages: ["/projects/tupasaje-screenshot-1.png", "/projects/tupasaje-screenshot-2.png", "/projects/tupasaje-screenshot-3.png"],
+			tags: ["Angular", "PrimeNG", "Nebula UI", "PHP", "MySQL"],
 			type: 'private',
-			links: { preview: "https://mencargo.net" }
+			links: { preview: "https://tupasaje.com" }
 		},
 		{
 			title: "Gestor Digital",
 			company: "Banco Fassil",
-			description: "Sistema integral de gestión para condominios y seguridad.",
-			mainImage: "/projects/mencargo-main.jpg",
+			description: "Sistema de gestión del proceso crediticio en microcréditos.",
+			mainImage: "/projects/gestor-digital-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
-			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			tags: ["Angular", "Angular Material", "SCSS", "Figma"],
 			type: 'private',
 			links: { preview: "https://mencargo.net" }
 		},
 		{
 			title: "Pionus UI Kit",
 			company: "Banco Fassil",
-			description: "Sistema integral de gestión para condominios y seguridad.",
-			mainImage: "/projects/mencargo-main.jpg",
+			description: "Librería de componentes UI reutilizables en herramientas del banco.",
+			mainImage: "/projects/pionus-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
-			tags: ["Angular", "NestJS", "Ionic", "PostgreSQL", "Docker"],
+			tags: ["Angular", "Angular Material", "SCSS", "Figma"],
 			type: 'private',
 			links: { preview: "https://mencargo.net" }
 		},
 		{
 			title: "Lluvia de Colores",
+			company: "Personal Project",
 			description: "Plataforma de estimulación infantil y seguimiento de desarrollo para padres y profesionales.",
 			mainImage: "/projects/lluvia-de-colores-main.png",
 			internalImages: ["/projects/lluvia-de-colores-1.jpg", "/projects/lluvia-de-colores-2.jpg"],
@@ -142,13 +144,13 @@ const ProjectsSection = () => {
 							/>
 
 							<div className="absolute top-4 left-4">
-								{project.type === 'private' ? (
+								{project.type === 'personal' ? (
 									<span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-[10px] font-bold uppercase tracking-wider">
-										<FolderLock size={12} /> Enterprise
+										<Eye size={12} /> Personal
 									</span>
 								) : (
 									<span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-500 text-[10px] font-bold uppercase tracking-wider">
-										<Eye size={12} /> Personal
+										<FolderLock size={12} /> Enterprise
 									</span>
 								)}
 							</div>
@@ -158,7 +160,12 @@ const ProjectsSection = () => {
 							<div className="flex justify-between items-start mb-4">
 								<div>
 									{project.company && (
-										<span className="text-cyan-500 text-xs font-mono mb-1 block">
+										<span
+											className={`text-xs font-mono mb-1 block ${project.type === 'private'
+												? 'text-cyan-500'
+												: 'text-amber-500'
+												}`}
+										>
 											{project.company}
 										</span>
 									)}

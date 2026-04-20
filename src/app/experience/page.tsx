@@ -23,7 +23,7 @@ const Experience = () => {
       role: "Full-Stack Developer",
       period: "April 2021 - August 2021 (5 months)",
       location: "Remote / Bolivia",
-      description: "Desarrollador principal de 'Mencargo' y 'Dogfy'. Creación de aplicaciones móviles y plataformas administrativas de alta demanda.",
+      description: "Contribución al proyecto 'TuPasaje.com'. Creación de aplicaciones web y plataformas administrativas de alta demanda.",
       tech: ["Ionic", "Node.js", "Firebase", "Angular"]
     },
     {

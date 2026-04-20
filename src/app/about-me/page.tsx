@@ -38,13 +38,23 @@ const AboutMe = () => {
           <h3 className="text-xl font-bold text-white mb-4">Education</h3>
           <div className="space-y-4">
             <div>
-              <p className="text-white font-semibold text-sm">Masters Degree</p>
-              <p className="text-zinc-400 text-xs">Strategic Mgmt. in Software Engineering</p>
+              <p className="text-white font-semibold text-sm">Masters Degree in: Strategic Management in Software Engineering</p>
+              <p className="text-zinc-400 text-xs">UAGRM School Of Engineering - Santa Cruz, Bolivia</p>
             </div>
             <div className="h-px bg-zinc-800" />
             <div>
-              <p className="text-white font-semibold text-sm">Bachelor of Software Engineering</p>
-              <p className="text-zinc-400 text-xs">Graduated with honors</p>
+              <p className="text-white font-semibold text-sm">Course on: Agile Project Management</p>
+              <p className="text-zinc-400 text-xs">UAGRM School Of Engineering - Santa Cruz, Bolivia</p>
+            </div>
+            <div className="h-px bg-zinc-800" />
+            <div>
+              <p className="text-white font-semibold text-sm">Bachelor degree in: System Engineering</p>
+              <p className="text-zinc-400 text-xs">Nur University - Santa Cruz, Bolivia</p>
+            </div>
+            <div className="h-px bg-zinc-800" />
+            <div>
+              <p className="text-white font-semibold text-sm">Course on: English</p>
+              <p className="text-zinc-400 text-xs">CBA - Santa Cruz, Bolivia</p>
             </div>
           </div>
         </div>

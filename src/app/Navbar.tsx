@@ -35,7 +35,7 @@ const Navbar = () => {
 
 				<Link
 					href="#contact"
-					className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-cyan-500 hover:text-white transition-all"
+					className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-green-500 hover:text-white transition-all"
 				>
 					Lets Talk
 				</Link>
