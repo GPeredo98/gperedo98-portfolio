@@ -69,7 +69,7 @@ const ProjectsSection = () => {
 			links: { preview: "https://dogfy.app" }
 		},
 		{
-			title: "TuPasaje.com",
+			title: "TuPasaje.bo",
 			company: "Clan Bolivia",
 			description: "Plataforma web de venta de pasajes y servicios de viaje.",
 			mainImage: "/projects/tupasaje-main.png",
@@ -121,7 +121,7 @@ const ProjectsSection = () => {
 			type: 'personal',
 			links: {
 				preview: "https://gperedo98.vercel.app",
-				github: "https://github.com/GPeredo98/lluvia-de-colores"
+				github: "https://github.com/GPeredo98/gperedo98-portfolio"
 			}
 		},
 	];
