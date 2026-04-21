@@ -1,4 +1,5 @@
-import { ExternalLink, FolderLock, Eye } from 'lucide-react';
+import { GitHubIcon } from '@/components/CustomIcons';
+import { ExternalLink, FolderLock, Eye, Globe, User } from 'lucide-react';
 import Image from 'next/image';
 
 const ProjectsSection = () => {
@@ -78,6 +79,19 @@ const ProjectsSection = () => {
 			links: { preview: "https://tupasaje.com" }
 		},
 		{
+			title: "Lluvia de Colores",
+			company: "Personal Project",
+			description: "Plataforma de estimulación infantil y seguimiento de desarrollo para padres y profesionales.",
+			mainImage: "/projects/lluvia-de-colores-main.png",
+			internalImages: ["/projects/lluvia-de-colores-1.jpg", "/projects/lluvia-de-colores-2.jpg"],
+			tags: ["Next.js", "React", "TypeScript", "Tailwind", "NestJS", "PostgreSQL"],
+			type: 'personal',
+			links: {
+				preview: "https://lluvia-de-colores.net",
+				github: "https://github.com/GPeredo98/lluvia-de-colores"
+			}
+		},
+		{
 			title: "Gestor Digital",
 			company: "Banco Fassil",
 			description: "Sistema de gestión del proceso crediticio en microcréditos.",
@@ -98,15 +112,15 @@ const ProjectsSection = () => {
 			links: { preview: "https://mencargo.net" }
 		},
 		{
-			title: "Lluvia de Colores",
+			title: "Personal Portfolio",
 			company: "Personal Project",
-			description: "Plataforma de estimulación infantil y seguimiento de desarrollo para padres y profesionales.",
-			mainImage: "/projects/lluvia-de-colores-main.png",
-			internalImages: ["/projects/lluvia-de-colores-1.jpg", "/projects/lluvia-de-colores-2.jpg"],
-			tags: ["Next.js", "React", "TypeScript", "Tailwind", "NestJS", "PostgreSQL"],
+			description: "Mi portafolio personal que muestra mis proyectos y experiencia.",
+			mainImage: "/projects/portfolio-main.png",
+			internalImages: ["/projects/portfolio-1.jpg", "/projects/portfolio-2.jpg"],
+			tags: ["Next.js", "React", "TypeScript", "Tailwind"],
 			type: 'personal',
 			links: {
-				preview: "https://lluvia-de-colores.net",
+				preview: "https://gperedo98.vercel.app",
 				github: "https://github.com/GPeredo98/lluvia-de-colores"
 			}
 		},
@@ -146,7 +160,7 @@ const ProjectsSection = () => {
 							<div className="absolute top-4 left-4">
 								{project.type === 'personal' ? (
 									<span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-[10px] font-bold uppercase tracking-wider">
-										<Eye size={12} /> Personal
+										<User size={12} /> Personal
 									</span>
 								) : (
 									<span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-500 text-[10px] font-bold uppercase tracking-wider">
@@ -175,12 +189,12 @@ const ProjectsSection = () => {
 								<div className="flex gap-3">
 									{project.links.github && (
 										<a href={project.links.github} target="_blank" className="text-zinc-400 hover:text-white transition-colors">
-											<ExternalLink size={20} />
+											<GitHubIcon size={20} />
 										</a>
 									)}
 									{project.links.preview && (
 										<a href={project.links.preview} target="_blank" className="text-zinc-400 hover:text-cyan-400 transition-colors">
-											<ExternalLink size={20} />
+											<Globe size={20} />
 										</a>
 									)}
 								</div>

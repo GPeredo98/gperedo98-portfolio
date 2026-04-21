@@ -1,16 +1,17 @@
-import { Mail, MessageCircle, Send } from 'lucide-react';
+import { GitHubIcon, LinkedInIcon, WhatsAppIcon } from '@/components/CustomIcons';
+import { Mail, Send } from 'lucide-react';
 
 const Contact = () => {
   const socialLinks = [
     { 
       name: 'LinkedIn', 
-      icon: <Mail size={20} />, 
+      icon: <LinkedInIcon size={20} />, 
       url: 'https://linkedin.com/in/gperedo',
       color: 'hover:text-blue-400'
     },
     { 
       name: 'GitHub', 
-      icon: <Mail size={20} />, 
+      icon: <GitHubIcon size={20} />, 
       url: 'https://github.com/GPeredo98', 
       color: 'hover:text-white'
     },
@@ -59,7 +60,7 @@ const Contact = () => {
           <div className="flex flex-col items-center lg:items-end">
             <div className="w-full max-w-sm bg-zinc-950/50 border border-zinc-800 p-8 rounded-3xl text-center">
               <div className="inline-flex p-4 rounded-2xl bg-green-500/10 text-green-500 mb-6">
-                <MessageCircle size={32} />
+				<WhatsAppIcon className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Direct Contact</h3>
               <p className="text-zinc-500 text-sm mb-8">

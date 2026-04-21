@@ -34,7 +34,8 @@ const Navbar = () => {
 				</ul>
 
 				<Link
-					href="#contact"
+					href="https://wa.me/59169433575"
+					target='_blank'
 					className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-green-500 hover:text-white transition-all"
 				>
 					Lets Talk
