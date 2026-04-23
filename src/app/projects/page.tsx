@@ -50,7 +50,7 @@ const ProjectsSection = () => {
 		},
 		{
 			title: "Ventu",
-			company: "Overscope SRL",
+			company: "QSM Solutions",
 			description: "Sistema de gestión de ingresos e invitados para eventos y organizadores.",
 			mainImage: "/projects/ventu-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
@@ -60,7 +60,7 @@ const ProjectsSection = () => {
 		},
 		{
 			title: "Dogfy",
-			company: "Overscope SRL",
+			company: "QSM Solutions",
 			description: "E-commerce para la venta de productos y servicios para mascotas.",
 			mainImage: "/projects/dogfy-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
@@ -93,7 +93,7 @@ const ProjectsSection = () => {
 		},
 		{
 			title: "Gestor Digital",
-			company: "Banco Fassil",
+			company: "Banco Fassil S.A.",
 			description: "Sistema de gestión del proceso crediticio en microcréditos.",
 			mainImage: "/projects/gestor-digital-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
@@ -103,7 +103,7 @@ const ProjectsSection = () => {
 		},
 		{
 			title: "Pionus UI Kit",
-			company: "Banco Fassil",
+			company: "Banco Fassil S.A.",
 			description: "Librería de componentes UI reutilizables en herramientas del banco.",
 			mainImage: "/projects/pionus-main.png",
 			internalImages: ["/projects/mencargo-screenshot-1.png", "/projects/mencargo-screenshot-2.png"],
