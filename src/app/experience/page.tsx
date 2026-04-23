@@ -4,7 +4,7 @@ const Experience = () => {
   const experiences = [
     {
       company: "Overscope SRL",
-      role: "Software Architecture Consultant",
+      role: "Software Architecture & Engineering Consultant",
       period: "October 2023 - Present (+2 years)",
       location: "Remote / Bolivia",
       description: "Consultoria en implementación de arquitecturas modernas y optimización de flujos de trabajo en equipos distribuidos.",
