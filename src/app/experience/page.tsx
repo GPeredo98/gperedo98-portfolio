@@ -3,15 +3,23 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      company: "Digital Harbor",
-      role: "Full-Stack Software Developer",
-      period: "May 2023 - Present (+3 years)",
-      location: "Remote / International",
-      description: "Desarrollo de soluciones escalables para Social Text y Yedy. Implementación de arquitecturas modernas y optimización de flujos de trabajo en equipos distribuidos.",
+      company: "Overscope SRL",
+      role: "Software Architecture & Engineering Consultant",
+      period: "October 2023 - Present (+2 years)",
+      location: "Remote / Bolivia",
+      description: "Consultoria en implementación de arquitecturas modernas y optimización de flujos de trabajo en equipos distribuidos.",
       tech: ["Angular", "NestJS", "TypeScript", "Microservices"]
     },
     {
-      company: "Banco Fassil",
+      company: "Digital Harbor Inc.",
+      role: "Full-Stack Software Developer",
+      period: "May 2023 - Present (+3 years)",
+      location: "Remote / International",
+      description: "Desarrollo de soluciones escalables para Social Text y Yedy.",
+      tech: ["Angular", "TypeScript", "NgRX"]
+    },
+    {
+      company: "Banco Fassil S.A.",
       role: "Senior UI/UX Developer",
       period: "June 2021 - May 2023 (2 years)",
       location: "Santa Cruz, Bolivia",
@@ -27,11 +35,11 @@ const Experience = () => {
       tech: ["Ionic", "Node.js", "Firebase", "Angular"]
     },
     {
-      company: "Mencargo",
+      company: "QSM Solutions",
       role: "Software Developer, Tech Lead",
       period: "January 2020 - June 2021 (1 year 6 months)",
       location: "Santa Cruz, Bolivia",
-      description: "Desarrollo independiente de soluciones personalizadas y conceptualización de plataformas como AidGlobe.",
+      description: "Desarrollo independiente de soluciones personalizadas y conceptualización de plataformas como Dogfy y Ventu.",
       tech: ["Next.js", "Docker", "PostgreSQL"]
     },
     {
