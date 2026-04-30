@@ -83,11 +83,11 @@ const ProjectsSection = () => {
 			company: "Personal Project",
 			description: "Plataforma de estimulación infantil y seguimiento de desarrollo para padres y profesionales.",
 			mainImage: "/projects/lluvia-de-colores-main.png",
-			internalImages: ["/projects/lluvia-de-colores-1.jpg", "/projects/lluvia-de-colores-2.jpg"],
+			internalImages: ["/projects/lluvia-de-colores-screenshot-1.png", "/projects/lluvia-de-colores-screenshot-2.png", "/projects/lluvia-de-colores-screenshot-3.png"],
 			tags: ["Next.js", "React", "TypeScript", "Tailwind", "NestJS", "PostgreSQL"],
 			type: 'personal',
 			links: {
-				preview: "https://lluvia-de-colores.net",
+				preview: "https://lluviadecolores.vercel.app",
 				github: "https://github.com/GPeredo98/lluvia-de-colores-platform"
 			}
 		},
