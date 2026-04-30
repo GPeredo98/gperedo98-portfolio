@@ -25,7 +25,7 @@ const ProjectsSection = () => {
 			type: 'personal',
 			links: {
 				preview: "https://aidglobe.org",
-				github: "https://github.com/GPeredo98/aidglobe-cloud"
+				github: "https://github.com/GPeredo98/aidglobe-platform"
 			}
 		},
 		{
@@ -88,7 +88,7 @@ const ProjectsSection = () => {
 			type: 'personal',
 			links: {
 				preview: "https://lluvia-de-colores.net",
-				github: "https://github.com/GPeredo98/lluvia-de-colores"
+				github: "https://github.com/GPeredo98/lluvia-de-colores-platform"
 			}
 		},
 		{
@@ -114,9 +114,9 @@ const ProjectsSection = () => {
 		{
 			title: "Personal Portfolio",
 			company: "Personal Project",
-			description: "Mi portafolio personal que muestra mis proyectos y experiencia.",
+			description: "Portafolio personal que muestra mis proyectos y experiencia.",
 			mainImage: "/projects/portfolio-main.png",
-			internalImages: ["/projects/portfolio-1.jpg", "/projects/portfolio-2.jpg"],
+			internalImages: ["/projects/portfolio-screenshot-1.png", "/projects/portfolio-screenshot-2.png"],
 			tags: ["Next.js", "React", "TypeScript", "Tailwind"],
 			type: 'personal',
 			links: {

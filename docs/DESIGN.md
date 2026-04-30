@@ -1,4 +1,4 @@
-# DESIGN SYSTEM: GABRIEL PEREDO PORTFOLIO v1.0
+# DESIGN SYSTEM
 
 Este documento define las reglas de diseño para el portafolio personal de Gabriel Peredo. La estética se define como Industrial Tech-Noir: una mezcla de minimalismo extremo, interfaces de alta fidelidad y acentos de luz orgánica (Aurora).
 

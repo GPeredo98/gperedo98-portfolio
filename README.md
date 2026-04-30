@@ -1,36 +1,345 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Documentation for humans
 
-## Getting Started
+My modern portfolio built with **Next.js** to showcase my professional experience, software engineering work, UI/UX projects, and contact channels.
 
-First, run the development server:
+This project is focused on:
+
+* Strong first impression
+* Fast performance
+* Clean responsive UI
+* SEO visibility
+* Easy maintenance
+* Professional branding
+
+<br>
+
+# Tech Stack
+
+## Core
+
+* Next.js
+* React
+* TypeScript
+
+## Styling
+
+* Tailwind CSS
+
+## UI / Animation
+
+* Framer Motion
+
+## Icons
+
+* Lucide React
+
+## Deployment
+
+* Vercel
+
+
+
+# Getting Started
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Default URL:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Run on another port
 
-## Learn More
+```bash
+npm run dev -- -p 3001
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Build production version
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Start production locally
 
-## Deploy on Vercel
+```bash
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Run linter
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint
+```
+
+
+
+# Project Structure
+
+```text
+/
+├── app/ or pages/
+├── components/
+├── sections/
+├── data/
+├── public/
+├── styles/
+├── docs/
+├── README.md
+```
+
+
+
+# Folder Guide
+
+## /components
+
+Reusable UI components.
+
+Examples:
+
+* Button
+* Card
+* Navbar
+* Footer
+* Badge
+
+## /sections
+
+Large homepage blocks.
+
+Examples:
+
+* Hero
+* About
+* Skills
+* Experience
+* Projects
+* Contact
+
+## /data
+
+Static editable content.
+
+Examples:
+
+* projects.ts
+* skills.ts
+* experience.ts
+
+## /public
+
+Assets:
+
+* images
+* favicon
+* CV / Resume PDF
+* logos
+
+
+
+# Icons
+
+Icons are provided by **Lucide React**.
+
+Install:
+
+```bash
+npm install lucide-react
+```
+
+Example:
+
+```tsx
+import { Github, Linkedin, Mail } from "lucide-react";
+```
+
+Why this library:
+
+* Lightweight
+* Clean visual style
+* Tree-shakeable
+* Modern developer aesthetic
+
+
+
+# Images
+
+Prefer **Next.js Image** component.
+
+```tsx
+import Image from "next/image";
+```
+
+Benefits:
+
+* Lazy loading
+* Better performance
+* Responsive image sizing
+* Optimization
+
+
+
+# Styling Guidelines
+
+* Prefer Tailwind utility classes
+* Keep spacing consistent
+* Reuse patterns
+* Avoid unnecessary inline styles
+* Mobile-first responsive design
+
+
+
+# Content Management
+
+Most editable content should live in `/data`.
+
+Examples:
+
+* Add new projects
+* Update experience
+* Change skills
+* Update links
+
+Avoid hardcoding content directly in UI components.
+
+
+
+# SEO Guidelines
+
+Every page should define:
+
+* title
+* meta description
+* social preview image
+* semantic headings
+* readable URLs
+
+
+
+# Performance Guidelines
+
+Keep the site fast.
+
+Recommended:
+
+* Compress images
+* Avoid heavy dependencies
+* Lazy load non-critical sections
+* Keep animations subtle
+* Minimize bundle size
+
+
+
+# Design Philosophy
+
+The portfolio should feel:
+
+* Premium
+* Modern
+* Clean
+* Confident
+* Intentional
+
+Avoid clutter.
+
+
+
+# Deployment
+
+Recommended platform: **Vercel**
+
+Workflow:
+
+1. Push to main branch
+2. Automatic deployment
+3. Preview deployments for branches / PRs
+
+
+
+# Common Tasks
+
+## Add new project
+
+Edit:
+
+```text
+/data/projects.ts
+```
+
+## Replace resume
+
+Update file inside:
+
+```text
+/ public /
+```
+
+## Update hero text
+
+Edit Hero section component or content source.
+
+
+
+# Onboarding Notes
+
+Before making changes, read:
+
+```text
+/docs/ARCHITECTURE.md
+/docs/DESIGN.md
+/docs/AGENTS.md
+```
+
+Important:
+
+* This is a branding product, not only a website.
+* First impression matters.
+* Small UI regressions matter.
+* Performance matters.
+
+
+
+# Coding Standards
+
+* Prefer strict TypeScript
+* Reusable components first
+* Semantic HTML
+* Accessible interactions
+* Small focused components
+
+
+
+# Feature Priorities
+
+Good additions:
+
+* Better project case studies
+* Improved contact conversion
+* Better storytelling
+* SEO improvements
+* Performance improvements
+
+Avoid:
+
+* Gimmicks
+* Heavy animations
+* Random widgets
+* Unnecessary dependencies
+
+
+
+# Owner
+
+Gabriel Peredo
