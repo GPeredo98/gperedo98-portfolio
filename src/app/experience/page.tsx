@@ -49,7 +49,7 @@ const Experience = () => {
       tech: ["Angular", "Vue.js", "jQuery", "MySQL", "FastAPI", "Flask", "Ionic", "Python", "Figma"]
     },
     {
-      company: "Freelance",
+      company: "Freelancer",
       role: "Graphic Designer",
       period: "2019 - Abril 2021 (2 years 4 months)",
       location: "Santa Cruz, Bolivia",
